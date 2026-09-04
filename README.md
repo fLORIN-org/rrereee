@@ -1,4 +1,4 @@
-Title: Storage architecture v1 — Data Placement Map  
+Storage architecture v1 — Data Placement Map  
 Решения - Пользователи: PostgreSQL (источник) + Redis (кэш профиля) - Сессии/токены: Redis - Курсы и уроки: PostgreSQL (структура) + MongoDB (гибкий контент) - Прогресс по курсам: PostgreSQL - Поиск по курсам: Elasticsearch (производный индекс) - Форум: PostgreSQL - Логи действий: ClickHouse - Аналитика и отчёты: ClickHouse (витрины) - Рекомендации курсов: PostgreSQL (MVP), возможен переход на Neo4j 
 Открытые вопросы
 1. Нужен ли Kafka как буфер перед записью логов в ClickHouse?
